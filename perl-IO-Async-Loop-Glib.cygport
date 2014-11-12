@@ -1,0 +1,12 @@
+CPAN_AUTHOR=pevans
+inherit perl
+
+NAME="perl-IO-Async-Loop-Glib"
+VERSION=0.21
+RELEASE=1
+CATEGORY="Perl"
+SUMMARY="Perl IO::Async::Loop Glib integration module"
+DESCRIPTION="This subclass of 'IO::Async::Loop' uses the 'Glib::MainLoop' to
+perform read-ready and write-ready tests."
+
+ARCH=noarch
